@@ -1,6 +1,5 @@
 
-# CB7 – SmartWasteNet: A Deep Learning Framework to Transition from Take-Make-Waste to
-Rethink-Redesign-Reuse for Circular Economy under SDG 12
+# CB7 – SmartWasteNet: A Deep Learning Framework to Transition from Take-Make-Waste to Rethink-Redesign-Reuse for Circular Economy under SDG 12
 
 
 ## Team Info
