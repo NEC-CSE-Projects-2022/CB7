@@ -1,0 +1,166 @@
+/* Page container */
+.validation-container {
+  width: 92%;
+  max-width: 950px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header - accuracy card */
+.header-stats {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.accuracy-card {
+  width: 250px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+  padding: 18px;
+  text-align: center;
+  transition: 0.3s;
+}
+.accuracy-card:hover {
+  transform: scale(1.03);
+}
+.accuracy-value {
+  font-size: 40px;
+  font-weight: 600;
+  margin: 5px 0;
+}
+.accuracy-badge {
+  background: #e0f7fa;
+  color: #0b5d63;
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* City Selection Card */
+.city-card {
+  width: 420px;
+  margin: auto;
+  background: white;
+  padding: 25px;
+  border-radius: 14px;
+  border: 2px solid #e3e8ef;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+.city-card:hover {
+  transform: scale(1.015);
+}
+.dropdown {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 2px solid #b5c3d1;
+}
+.btn-forecast {
+  margin-top: 18px;
+  width: 100%;
+  padding: 12px;
+  background: #006a4e;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+.btn-forecast:hover {
+  background: #008b6c;
+}
+
+/* Prediction Result Card */
+.result-card {
+  width: 420px;
+  margin: 25px auto;
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 22px;
+  border: 2px solid #e6ebf2;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  animation: fadeIn 0.4s ease-in-out;
+}
+.result-city {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #084c87;
+}
+
+/* CE Action Badge */
+.result-action {
+  display: block;
+  margin: 12px auto 0;
+  width: fit-content;
+  padding: 7px 16px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+.action-Rethink { background: #ff6b6b; }
+.action-Redesign { background: #ffaa00; }
+.action-Reuse { background: #28a745; }
+
+/* Stats list */
+.result-stats {
+  list-style: none;
+  padding: 0;
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.result-stats li {
+  background: #f8fbff;
+  padding: 12px;
+  border-radius: 8px;
+  border-left: 5px solid #007bff;
+  font-size: 15px;
+  font-weight: 500;
+  color: #003c6f;
+}
+
+/* Recommendation list */
+.recommend-title {
+  margin-top: 18px;
+  font-size: 19px;
+  font-weight: 600;
+  text-align: center;
+  color: #003c6f;
+}
+.recommend-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.recommend-list li {
+  background: #f8fbff;
+  border-left: 6px solid #1e90ff;
+  color: #00365a;
+  font-size: 15px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  transition: 0.25s ease-in-out;
+  font-weight: 500;
+}
+.recommend-list li:hover {
+  transform: translateX(6px);
+  background: #e7f3ff;
+}
+
+/* Fade animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
