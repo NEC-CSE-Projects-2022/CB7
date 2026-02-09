@@ -23,7 +23,7 @@ Using data from 59 Indian cities, the system integrates MSW statistics, recyclin
 ---
 
 ## Paper Reference (Inspiration)
-👉 [A Comparative Analysis of Forecasting Algorithms for Predicting Municipal Solid Waste Generation in Chittagong City.]("https://link.springer.com/article/10.1007/s13762-02506488-0")
+👉 [A Comparative Analysis of Forecasting Algorithms for Predicting Municipal Solid Waste Generation in Chittagong City.](https://link.springer.com/article/10.1007/s13762-025-06488-0)
 Original conference/IEEE paper used as inspiration for the model.
 
 ---
@@ -61,7 +61,7 @@ Why it is useful :
 
 3. Provides interpretable AI outputs instead of black-box predictions
 
-Workflow
+Workflow:
 
 Input Data → Preprocessing → Autoencoder Clustering → MLP Classification → SHAP Explainability → CE Action Recommendation
 ---
