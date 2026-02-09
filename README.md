@@ -6,10 +6,10 @@
 - 22471A05J3 — Shaik Rasheed ( [LinkedIn](https://www.linkedin.com/in/shaik-rasheed-222274276/) )
 _Work Done: Data preprocessing, feature engineering, model implementation (MLP classifiers), training & evaluation, SHAP explainability, GitHub documentation,Literature survey, model comparison, report writing, result interpretation.
 
-- 22471A05K5 — Vattikuti Hemanth ( [LinkedIn](https://linkedin.com/in/xxxxxxxxxx) )
+- 22471A05K5 — Vattikuti Hemanth ( [LinkedIn](https://www.linkedin.com/in/hemanth-vattikuti-65a11a341?/) )
 _Work Done: Dataset collection, SDG indicator integration, exploratory data analysis (EDA), visualization.
 
-- 22471A05I5 —  Kumbha Chandra Sekar (( [LinkedIn](https://linkedin.com/in/xxxxxxxxxx) )
+- 22471A05I5 —  Kumbha Chandra Sekar (( [LinkedIn](https://www.linkedin.com/in/chandra-6b0648276?/) )
 _Work Done: Autoencoder-based clustering, label assignment (Rethink/Redesign/Reuse), results analysis.
 
 
@@ -45,21 +45,21 @@ Original conference/IEEE paper used as inspiration for the model.
 
 What the project does :
 
-SmartWasteNet analyzes city-level waste and sustainability indicators to recommend circular economy actions:
+1. SmartWasteNet analyzes city-level waste and sustainability indicators to recommend circular economy actions:
 
-Rethink (high waste, low recycling)
+2. Rethink (high waste, low recycling)
 
-Redesign (moderate efficiency)
+3. Redesign (moderate efficiency)
 
-Reuse (high recycling & sustainability)
+4. Reuse (high recycling & sustainability)
 
 Why it is useful :
 
-Supports data-driven urban waste policy decisions
+1. Supports data-driven urban waste policy decisions
 
-Aligns waste management with SDG-12
+2. Aligns waste management with SDG-12
 
-Provides interpretable AI outputs instead of black-box predictions
+3. Provides interpretable AI outputs instead of black-box predictions
 
 Workflow
 
@@ -88,36 +88,36 @@ Data sources include World Bank (What a Waste 2.0), CPCB India, and SDG India In
 
 ## Dependencies Used
 
-Python 3.x
+1. Python 3.x
 
-NumPy
+2. NumPy
 
-Pandas
+3. Pandas
 
-Scikit-learn
+4. Scikit-learn
 
-TensorFlow / Keras
+5. TensorFlow / Keras
 
-Matplotlib
+6. Matplotlib
 
-Seaborn
+7. Seaborn
 
-SHAP
+8. SHAP
 
 ---
 
 ## EDA & Preprocessing
-Missing value handling using mean/median imputation
+1. Missing value handling using mean/median imputation
 
-Label encoding for categorical variables
+2. Label encoding for categorical variables
 
-Z-score normalization for numerical features
+3. Z-score normalization for numerical features
 
-Correlation analysis & feature selection
+4. Correlation analysis & feature selection
 
-Autoencoder-based dimensionality reduction
+5. Autoencoder-based dimensionality reduction
 
-Visualization using heatmaps, scatter plots, and trend graphs
+6. Visualization using heatmaps, scatter plots, and trend graphs
 
 ---
 
@@ -128,23 +128,23 @@ K-Means on latent space for CE label assignment
 
 MLP architectures tested:
 
-1-Layer MLP
+1. 1-Layer MLP
 
-2-Layer MLP
+2. 2-Layer MLP
 
-Dropout MLP
+3. Dropout MLP
 
-BatchNorm MLP
+4. BatchNorm MLP
 
-Wide-Deep MLP
+5. Wide-Deep MLP
 
-Optimizer: Adam
+6. Optimizer: Adam
 
-Loss: Categorical Cross-Entropy
+7. Loss: Categorical Cross-Entropy
 
-Validation: 5-Fold Cross-Validation
+8. Validation: 5-Fold Cross-Validation
 
-Regularization: Dropout & Early Stopping
+9. Regularization: Dropout & Early Stopping
 
 ---
 
@@ -152,35 +152,35 @@ Regularization: Dropout & Early Stopping
 
 Evaluation metrics:
 
-Accuracy
+1. Accuracy
 
-Precision
+2. Precision
 
-Recall
+3. Recall
 
-F1-Score
+4. F1-Score
 
-Confusion Matrix
+5. Confusion Matrix
 
-SHAP Feature Importance
+6. SHAP Feature Importance
 
-Best model: Dropout MLP
+7. Best model: Dropout MLP
 
 ---
 
 ## Results
 
-Highest Accuracy: 97.86%
+1. Highest Accuracy: 97.86%
 
-Perfect classification across CE action categories
+2. Perfect classification across CE action categories
 
 Key influencing features:
 
-SDG-12 Score
+1. SDG-12 Score
 
-Recycling Rate
+2. Recycling Rate
 
-Population Density
+3. Population Density
 
 The model demonstrates strong generalization and interpretability, making it suitable for real-world decision support.
 
@@ -190,27 +190,57 @@ The model demonstrates strong generalization and interpretability, making it sui
 
 Limitations :
 
-Static (non real-time) dataset
+1. Static (non real-time) dataset
 
-Limited to Indian urban cities
+2. Limited to Indian urban cities
 
-No IoT sensor integration
+3. No IoT sensor integration
 
 Future Work :
 
-Integration with real-time IoT waste data
+1. Integration with real-time IoT waste data
 
-Extension to rural and global datasets
+2. Extension to rural and global datasets
 
-Time-series forecasting with LSTM
+3. Time-series forecasting with LSTM
 
-Interactive dashboards for policymakers
+4. Interactive dashboards for policymakers
 
-GIS-based waste analytics
+5. GIS-based waste analytics
 
 ---
 
 ## Deployment Info
-xxxxxxxxxx
+The SmartWasteNet project is designed to be easily deployable on a local machine or cloud-based platforms for analysis and decision support.
+
+Deployment Type: Local Machine / Cloud-Based (Optional)
+
+Environment: Python-based ML environment using Anaconda
+
+Platform:
+
+Local Laptop (Windows 10/11, 64-bit)
+
+Google Colab (for cloud-based execution and experimentation)
+
+Model Serving (Optional):
+
+Flask / Streamlit used to deploy the trained model as a web application
+
+Input:
+
+City-level waste and sustainability indicators (CSV format)
+
+Output:
+
+Predicted Circular Economy Action (Rethink / Redesign / Reuse)
+
+Feature importance explanations using SHAP
+
+Execution Flow:
+Dataset upload → Preprocessing → Model inference → CE action recommendation → Visualization
+
+Scalability:
+The system can be extended to handle larger datasets and real-time inputs with minimal changes.
 
 ---
