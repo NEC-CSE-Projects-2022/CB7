@@ -75,9 +75,4 @@ Key Attributes:
 Usage in Project:
 Used for data integration, geospatial mapping, and visualization in dashboards.
 
-🧩 Dataset Integration Summary
-        Dataset	                           Purpose
-Waste Management (Raw)	        Trend analysis and baseline insights
-Waste Management (Cleaned)	       ML modeling and prediction
-Population & Area              	Per-capita and density-based indicators
-Indian Cities 	                Mapping and city-level integration
+
