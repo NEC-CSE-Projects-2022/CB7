@@ -1,4 +1,5 @@
-Dataset Details
+Dataset Details :
+
 1️⃣ Waste Management and Recycling in Indian Cities
 
 Source: https://www.kaggle.com/datasets/krishnayadav456wrsty/waste-management-and-recycling-in-indian-cities
